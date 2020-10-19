@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="/main.css">
+  <title>Document</title>
+</head>
+<body>
+  <header id="header">
+    <nav class="nav-bar">
+      <div class="logo">
+        <h1>Where in The World?</h1>
+      </div>
+      <div class="container">
+        <input type="checkbox"  id="check">
+        <label for="check">
+          <div class="ball"></div>
+        </label>
+      </div>
+    </nav>
+
+
+    <section class="input-sec">
+      <div>
+        <input aria-autocomplete="inline" id="input-task" type="text" placeholder="Search for country">
+      </div>
+      
+      <div>
+        <select name="Select by Region"  id="select">
+          <option selected aria-disabled="false" disabled >Select by Region</option>
+          <option value="Africa">Africa</option>
+          <option value="Americas">Americas</option>
+          <option value="Asia">Asia</option>
+          <option value="Europe">Europe</option>
+          <option value="Oceania">Oceania</option>
+        </select>
+      </div>
+    </section>
+  </header>
+
+  <main id="main">
+    <div class="country-list">
+
+    </div>
+   
+  </main>
+
+
+
+  <script src="main.js"></script>
+</body>
+</html>
